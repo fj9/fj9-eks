@@ -12,4 +12,5 @@ terraform output config_map_aws_auth > configmap.yml
 
 ### TODO:
 
-This is still not running on the cluster, more work required on the helm chart. 
+* This is still not running on the EKS cluster, more work required on the helm chart. 
+* Service B is not redirecting appropriately to service A
